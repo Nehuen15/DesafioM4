@@ -1,7 +1,7 @@
 function getFooter(el) {
   var div = document.createElement("div");
   div.innerHTML = `<footer class="footer">
-  <img class="footer__logo" src="../../images/logo.png" alt="logo" />
+  <img class="footer__logo" src="./images/logo.png" alt="logo" />
   <div class="footer__socialmedia-conteiner">
     <div class="footer__socialmedia footer__instagram">
       <a
@@ -13,7 +13,7 @@ function getFooter(el) {
         </p>
         <img
           class="logo-socialmedia footer__instagram-logo"
-          src="../../images/instagram.png"
+          src="../images/instagram.png"
           alt="instagram"
         />
       </a>
@@ -28,7 +28,7 @@ function getFooter(el) {
         </p>
         <img
           class="logo-socialmedia footer__linkedin-logo"
-          src="../../images/linkedin.png"
+          src="./images/linkedin.png"
           alt="linkedin"
         />
       </a>
@@ -41,7 +41,7 @@ function getFooter(el) {
         <p class="footer__socialmedia-name footer__github-name">Github</p>
         <img
           class="logo-socialmedia footer__github-logo"
-          src="../../images/github.png"
+          src="./images/github.png"
           alt="github"
         />
       </a>

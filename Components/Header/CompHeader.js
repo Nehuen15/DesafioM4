@@ -15,24 +15,24 @@ function burguerMenu() {
 function getHeader(el) {
   const div = document.createElement("div");
   div.innerHTML = `<header class="header">
-  <a href="../../index.html">
-    <img class="logo header__logo" src="../../images/logo.png" alt="logo" />
+  <a href="./index.html">
+    <img class="logo header__logo" src="./images/logo.png" alt="logo" />
   </a>
   <button class="header__button-open-menu">
     <img
       class="header__burguer-menu-img"
-      src="../../images/burger.png"
+      src="./images/burger.png"
       alt="burguer-menu"
     />
   </button>
   <div class="header__desktop-options">
-    <a class="header__desktop-option" href="../../Portfolio/portfolio.html"
+    <a class="header__desktop-option" href="./Portfolio/portfolio.html"
       >Portfolio</a
     >
-    <a class="header__desktop-option" href="../../Servicios/servicios.html"
+    <a class="header__desktop-option" href="./Servicios/servicios.html"
       >Servicios</a
     >
-    <a class="header__desktop-option" href="../../Contacto/contacto.html"
+    <a class="header__desktop-option" href="./Contacto/contacto.html"
       >Contacto</a
     >
   </div>
@@ -40,22 +40,22 @@ function getHeader(el) {
     <button class="header__button-close-menu">
       <img
         class="header__button-close-menu-img"
-        src="../../images/cross.png"
+        src="./images/cross.png"
         alt="cross"
       />
     </button>
     <div class="header__burguer-menu-options">
       <a
         class="header__burguer-option"
-        href="../../Portfolio/portfolio.html"
+        href="./Portfolio/portfolio.html"
         >Portfolio</a
       >
       <a
         class="header__burguer-option"
-        href="../../Servicios/servicios.html"
+        href="./Servicios/servicios.html"
         >Servicios</a
       >
-      <a class="header__burguer-option" href="../../Contacto/contacto.html"
+      <a class="header__burguer-option" href="./Contacto/contacto.html"
         >Contacto</a
       >
     </div>
