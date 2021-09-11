@@ -9,7 +9,7 @@ body {
 /* header */
 
 .header-welcome-conteiner {
-  background-image: url("../images/welcome-fondo.png");
+  background-image: url("./images/welcome-fondo.png");
   opacity: 1.2;
   height: 616px;
 }
