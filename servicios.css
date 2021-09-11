@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header__desktop-option:hover {
+  border: 2px solid rgb(114, 0, 143);
+  background-color: rgb(164, 0, 206);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.main {
+  background-color: #000000;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  .main {
+    background-image: url("./images/fondo-services.jpg");
+  }
+}
+
+.main__title {
+  margin: 0;
+  padding: 103px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .main__title {
+    text-align: left;
+    padding: 103px 86px 203px 86px;
+  }
+}
+
+.services {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .services {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 106px 92px 0 92px;
+  }
+}
+
+.service {
+  max-width: 290px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 105px;
+}
+
+@media (min-width: 768px) {
+  .service {
+    margin-bottom: 166px;
+    flex-grow: 2;
+  }
+  .service:hover {
+    border: 2px solid #222;
+    background-color: #444;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+}
+
+.service__img {
+  width: 138px;
+  height: 128px;
+  margin-bottom: 15px;
+}
+
+.service__title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 39px;
+}
+
+.service__text {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
