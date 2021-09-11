@@ -13,7 +13,7 @@ function getFooter(el) {
         </p>
         <img
           class="logo-socialmedia footer__instagram-logo"
-          src="../images/instagram.png"
+          src="./images/instagram.png"
           alt="instagram"
         />
       </a>

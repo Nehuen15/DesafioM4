@@ -26,13 +26,13 @@ function getHeader(el) {
     />
   </button>
   <div class="header__desktop-options">
-    <a class="header__desktop-option" href="./Portfolio/portfolio.html"
+    <a class="header__desktop-option" href="./portfolio.html"
       >Portfolio</a
     >
-    <a class="header__desktop-option" href="./Servicios/servicios.html"
+    <a class="header__desktop-option" href="./servicios.html"
       >Servicios</a
     >
-    <a class="header__desktop-option" href="./Contacto/contacto.html"
+    <a class="header__desktop-option" href="./contacto.html"
       >Contacto</a
     >
   </div>
@@ -47,15 +47,15 @@ function getHeader(el) {
     <div class="header__burguer-menu-options">
       <a
         class="header__burguer-option"
-        href="./Portfolio/portfolio.html"
+        href=".portfolio.html"
         >Portfolio</a
       >
       <a
         class="header__burguer-option"
-        href="./Servicios/servicios.html"
+        href=".servicios.html"
         >Servicios</a
       >
-      <a class="header__burguer-option" href="./Contacto/contacto.html"
+      <a class="header__burguer-option" href="./contacto.html"
         >Contacto</a
       >
     </div>
