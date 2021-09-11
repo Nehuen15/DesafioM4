@@ -47,12 +47,12 @@ function getHeader(el) {
     <div class="header__burguer-menu-options">
       <a
         class="header__burguer-option"
-        href=".portfolio.html"
+        href="./portfolio.html"
         >Portfolio</a
       >
       <a
         class="header__burguer-option"
-        href=".servicios.html"
+        href="./servicios.html"
         >Servicios</a
       >
       <a class="header__burguer-option" href="./contacto.html"
