@@ -1,16 +1,22 @@
 function formEvent(formEl) {
   var data;
+  const inputsEl = formEl.querySelectorAll(".form__input");
   formEl.addEventListener("submit", (e) => {
     e.preventDefault();
     var formData = new FormData(formEl);
     data = {
-      to: formData.get("email"),
+      to: "nehuencarrizo@outlook.com.ar",
       message: formData.get("message"),
     };
+
     fetch("https://apx-api.vercel.app/api/utils/dwf", {
       method: "POST",
       body: JSON.stringify(data),
       headers: { "content-type": "application/json" },
+    }).then(() => {
+      for (const inputEl of inputsEl) {
+        inputEl.value = "";
+      }
     });
   });
 }
